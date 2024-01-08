@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 nav > ul {
@@ -43,4 +44,18 @@ nav li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* header related styles */
+.header{
+    background: #FFF8F3;
+}
+
+.banner {
+    padding :30px 30px 50px  150px;
+    display : flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
